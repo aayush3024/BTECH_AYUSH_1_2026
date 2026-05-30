@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>simple survey form</title>
+        <link rel="stylesheet"
+        href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Feedback Survey Form</h1>
+            <form id="survey-form">
+            <label for="name">Name:
+
+            </label>
+            <input type="text" id="name"
+            name ="name" required>
+            <label for="email">Email:
+                </label>
+                <input type="email"
+         id="email" name="email"required>
+         <label for="age">Age:</label>
+         <input type ="number" id="age"
+          name="age" min="1" max="70">
+         <label for="feedback"
+         type>Type of feedback:</label>
+         <select id="feedback type">
+            name="feedback-type">
+            <option
+            value="postive">postive</option>
+            <option
+            value="negative">negative</option>
+            </select>
+            <label for="comments">additional comments:
+            </label>
+            <textarea id="comments"
+            name="comments" rows="4"></textarea>
+
+
+            <button type="button" onclick="showMessage()">
+            Submit Feedback
+
+            </button>
+            </form>
+        </main>
+        <script>
+            function showMessage(){
+                alert("Your Feedback has been Submitted!");
+            }
+        </script>
+        </body>
+        </html>
