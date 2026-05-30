@@ -1,0 +1,55 @@
+body{
+    font-family: 'Aerial',sans-serif;
+    margin:0;
+    padding:o;
+    background: color #74ebd5,#ACB6E5;
+}
+main{
+    max-width: 600px;
+    margin:50px auto;
+    padding:20px 40px;
+    background-color:rgb(250, 247, 247);
+    border-radius:15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+main h1{
+    text-align:center;
+
+}
+form{
+    display:flex;
+    flex-direction:column;
+    padding-right:20px;
+}
+ label{
+    margin-top:10px;
+    font-weight:bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width:calc(100%-20px);
+    padding:8px;
+    margin-top:5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    color: hsl(0, 36%, 96%);
+    background-color:#45a049;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}    
+button:hover{
+    background-color: #2e7d32;
+
+}
+legend{
+    font-weight: bold;
+}
