@@ -49,3 +49,34 @@ button:hover{
 legend{
     font-weight: bold;
 }
+/* Rating Section */
+.rating {
+    margin: 20px 0;
+}
+
+.rating label {
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;
+    transition: 0.3s;
+    margin-right: 8px;
+}
+
+.rating input {
+    display: none;
+}
+
+/* Highlight stars when selected */
+.rating input:checked + label,
+.rating label:hover {
+    color: gold;
+    transform: scale(1.2);
+}
+
+/* Optional heading */
+.rating-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
