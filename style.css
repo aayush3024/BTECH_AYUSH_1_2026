@@ -26,10 +26,6 @@ form{
     margin-top:10px;
     font-weight:bold;
 }
-input[type="text"],
-input[type="email"],
-input[type="number"],
-select,
 textarea{
     width:calc(100%-20px);
     padding:8px;
